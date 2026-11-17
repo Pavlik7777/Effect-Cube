@@ -1,0 +1,77 @@
+.Footer{
+    background-color: rgba(255, 186, 186, 0.1);
+    height: 60vh;
+    .foo{
+        width: 98vw;
+        display: flex;
+        justify-content: center;
+        .foo_container{
+            width: 90vw;
+            height: 50vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .bak{
+                h2{
+                    color: #CE44E4;
+                    font-size: 35px;
+                    font-weight: 400;
+                    height: 7vh;
+                }
+                p{
+                    color: #393939;
+                    font-size: 20px;
+                    font-weight: 400;
+                    height: 14vh;
+                }
+                img{
+                    width: 120px;
+                    height: 32px;
+                }
+            }
+            .haha{
+                width: 40vw;
+                display: flex;
+                justify-content: space-around;
+                .ulf{
+                    h2{
+                        color: #000000;
+                        font-size: 20px;
+                        font-weight: 600;
+                        height: 5vh;
+                    }
+                    ul{
+                        list-style: none;
+                        text-decoration: none;
+                        line-height: 40px;
+                        li{
+                            color: #333333;
+                            font-size: 20px;
+                            font-weight: 400;
+                            
+                        }
+                    }
+                }
+                .uls{
+                    h2{
+                        color: #000000;
+                        font-size: 20px;
+                        font-weight: 600;
+                        height: 5vh;
+                    }
+                    ul{
+                        list-style: none;
+                        text-decoration: none;
+                        line-height: 40px;
+                        li{
+                            color: #333333;
+                            font-size: 20px;
+                            font-weight: 400;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

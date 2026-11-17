@@ -1,0 +1,22 @@
+html,
+body, 
+#root{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

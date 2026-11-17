@@ -1,0 +1,55 @@
+.Home_sec2{
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 186, 186, 0.10);
+    .an{
+        width: 98vw;
+        display: flex;
+        justify-content: center;
+        .an_container{
+            width: 80vw;
+            display: flex;
+            justify-content: space-around;
+            .liga{
+                p{
+                    color: #000000;
+                    font-size: 20px;
+                    font-weight: 400;
+                    height: 5vh;
+                }
+                h2{
+                    color: #E35050;
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+            }
+            .agg{
+                display: flex;
+                flex-direction: column;
+                width: 811px;
+                height: 348px;
+                img{
+                    width: 720px;
+                    height: 252px;
+                }
+                .kol{
+                    ul{
+                        width: 34vw;
+                        display: flex;
+                        justify-content: space-around;
+                        text-decoration: none;
+                        list-style: none;
+                        li{
+                            color: #000000;
+                            font-size: 20px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

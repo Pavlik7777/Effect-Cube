@@ -1,0 +1,50 @@
+.Home_sec1{
+    background-color: #F3BDBF;
+    height: 90vh;
+    .lo{
+        width: 98vw;
+        display: flex;
+        justify-content: center;
+        .lo_container{
+            width: 84vw;
+            height: 80vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .ala{
+                h2{
+                    color: #81008C;
+                    font-size: 50px;
+                    font-weight: 700;
+                    height: 20vh;
+                }
+                p{
+                    color: #282828;
+                    font-size: 20px;
+                    font-weight: 400;
+                    height: 7vh;
+                }
+                button{
+                    width: 138px;
+                    height: 48px;
+                    background-color: #973499;
+                    border: 1px solid #973499;
+                    border-radius: 10px;
+                    color: #FFFFFF;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+                img{
+                    position: relative;
+                    top: 2vh;
+                    width: 120px;
+                    height: 32px;
+                }
+            }
+            .po{
+                width: 722px;
+                height: 493px;
+            }
+        }
+    }
+}

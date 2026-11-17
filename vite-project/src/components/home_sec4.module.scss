@@ -1,0 +1,95 @@
+.Home_sec4 {
+    min-height: 100vh;
+    padding: 60px 0;
+    background-color: rgba(255, 186, 186, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    .arti {
+        width: 100%;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            color: #81008c;
+            font-size: 46px;
+            font-weight: 700;
+            margin: 0;
+        }
+    }
+    .des {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .des_container {
+            width: 100%;
+            max-width: 1280px;
+            display: flex;
+            justify-content: space-between;
+            gap: 24px;
+            padding: 0 20px;
+            box-sizing: border-box;
+            .kolo {
+                position: relative;
+                width: 398px;
+                height: 511px;
+                padding: 18px;
+                box-sizing: border-box;
+                border-radius: 20px;
+                background-color: #ffffff;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &::after {
+                    position: absolute;
+                    inset: 18px;
+                    border-radius: 14px;
+                    background: linear-gradient(
+                        180deg,
+                        rgba(0, 0, 0, 0) 55%,
+                        rgba(0, 0, 0, 0.65) 100%
+                    );
+                    pointer-events: none;
+                }
+                .Cooc {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 14px;
+                    display: block;
+                }
+                button {
+                    position: absolute;
+                    top: 36px;
+                    left: 36px;
+                    z-index: 2;
+                    width: 68px;
+                    height: 76px;
+                    background-color: rgba(150, 150, 150, 0.25);
+                    border-radius: 12px;
+                    border: 0.1px;
+                    color: #ffffff;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 1.2;
+                }
+                p {
+                    position: absolute;
+                    bottom: 40px;
+                    left: 40px;
+                    right: 40px;
+                    z-index: 2;
+                    margin: 0;
+                    color: #ffffff;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 1.3;
+                }
+            }
+        }
+    }
+}
